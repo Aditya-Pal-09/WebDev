@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f8fafc, #e2e8f0);
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+.hero {
+    background: linear-gradient(135deg, #4f46e5, #06b6d4);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: white;
+    color: #4f46e5;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e0e7ff;
+    transform: translateY(-3px);
+}
+
+section {
+    padding: 60px 30px;
+    margin: 40px auto;
+    max-width: 1100px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #4f46e5;
+}
+
+.services-container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-card {
+    flex: 1;
+    min-width: 260px;
+    padding: 25px;
+    border-radius: 10px;
+    background: #f9fafb;
+    transition: 0.3s ease;
+    border: 1px solid #e5e7eb;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.08);
+}
+
+.testimonial {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #f1f5f9;
+    border-left: 5px solid #4f46e5;
+    border-radius: 6px;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #4f46e5;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+}
+
+.contact-form button {
+    background: linear-gradient(135deg, #4f46e5, #06b6d4);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e293b;
+    color: white;
+    margin-top: 40px;
+}

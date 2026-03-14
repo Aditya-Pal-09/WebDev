@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz | Aditya Pal</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="quiz-container">
+
+        <section id="intro">
+            <h1>Interactive Quiz</h1>
+            <p>Test your programming and web development basics</p>
+        </section>
+
+        <div class="progress">
+            <div id="progress-bar"></div>
+        </div>
+
+        <section id="quiz">
+            <h2 id="question"></h2>
+
+            <div class="options">
+                <label class="option-item">
+                    <input type="radio" name="option" value="0">
+                    <span id="opt0"></span>
+                </label>
+
+                <label class="option-item">
+                    <input type="radio" name="option" value="1">
+                    <span id="opt1"></span>
+                </label>
+
+                <label class="option-item">
+                    <input type="radio" name="option" value="2">
+                    <span id="opt2"></span>
+                </label>
+
+                <label class="option-item">
+                    <input type="radio" name="option" value="3">
+                    <span id="opt3"></span>
+                </label>
+            </div>
+
+            <button id="nextBtn">Next Question</button>
+        </section>
+
+        <section id="result" class="hidden">
+            <h2>Quiz Result</h2>
+            <p id="scoreText"></p>
+            <p id="feedback"></p>
+
+            <div id="review"></div>
+
+            <button id="restartBtn">Restart Quiz</button>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
