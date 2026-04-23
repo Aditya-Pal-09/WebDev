@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Edit Contact</h2>
+
+<form method="POST">
+    <input type="text" name="name" value="{{ contact.name }}" required>
+    <input type="text" name="phone" value="{{ contact.phone }}" required>
+    <input type="email" name="email" value="{{ contact.email }}" required>
+    <button type="submit">Update</button>
+</form>
+{% endblock %}
